@@ -1,0 +1,16 @@
+name: Clang Format Lint
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: DoozyX/clang-format-lint-action@v0.20
+      with:
+        source: '.'
+        exclude: './third_party ./external'
+        extensions: 'h,cpp'
+        clangFormatVersion: 20
+        style: chromium
