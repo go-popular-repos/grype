@@ -1,6 +1,6 @@
 module github.com/anchore/grype
 
-go 1.19
+go 1.24
 
 require (
 	github.com/CycloneDX/cyclonedx-go v0.7.1
@@ -121,7 +121,7 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
-	github.com/klauspost/compress v1.16.5 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/klauspost/pgzip v1.2.5 // indirect
 	github.com/knqyf263/go-rpmdb v0.0.0-20230301153543-ba94b245509b // indirect
 	github.com/logrusorgru/aurora v0.0.0-20200102142835-e9ef32dff381 // indirect
